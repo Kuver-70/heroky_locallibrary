@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '*2)vwe906qe89%i&4lm&f4err4+%z1
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['serene-cliffs-69731.herokuapp.com']
 
 
 # Application definition
